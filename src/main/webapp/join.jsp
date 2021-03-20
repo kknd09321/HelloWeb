@@ -79,7 +79,7 @@ button[type='button'] { margin-left: 125px }
 		All Rights Reserved.</p><!-- 저작권표시 -->
 	</footer>
 </div>
-
+<%----%>
 <script>
 var okbtn = document.getElementById('okbtn');
 okbtn.addEventListener('click', checkjoinfrm);

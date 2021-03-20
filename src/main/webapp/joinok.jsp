@@ -42,7 +42,7 @@ user="bigdata" password="bigdata2020" />
 		location.href='login.jsp';
 		</script>
 	</c:when>
-	
+	<%----%>
 	<c:when test='${join != 1 || result != null }'>
 		<script>
 		alert('회원가입 실패! -- 이전페이지로 이동');
